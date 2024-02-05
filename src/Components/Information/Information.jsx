@@ -10,13 +10,12 @@ const Information = () => {
         <div className="about_container">
           <div className="about_card">
             <h1>
-              a<span className='about_heading'>bou</span>t u<span className='about_heading'>s</span>
+              a<span className='about_heading'>bou</span>t Aw<span className='about_heading'>are</span>
             </h1>
 
-            <p>gateway about
-            </p>
+            <p>Aware ....</p>
             <p>
-              Stay tuned for morngfhers64wet3hsh ytgweyu ftwqee 76wgheuy eu f 7fg685etgfuwerb ee 6 wewyh dtad gew fytarfdehfvyt rtehe v7etgejfe6 fgee information.
+            Aware is your all-in-one solution for enhancing your Discord server. With robust antinuke and antiraid features, it ensures the security and integrity of your community. Engage your members with exciting giveaways, allowing you to effortlessly organize and distribute rewards.
             </p>
 
           </div>

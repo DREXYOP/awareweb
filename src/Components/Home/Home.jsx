@@ -1,4 +1,4 @@
-import Gateway_main from "../../asserts/gateway.png"
+
 import './Home.css'
 
 const Home = () => {
@@ -8,17 +8,17 @@ const Home = () => {
         <>
             <div className="home_section" id="home">
                 <div className="gimage">
-                    <img src={Gateway_main} alt="null" />
+                    <img src="/aware.svg" alt="awarelogo" />
                 </div>
                 <div className="mainintro">
-                    <span className="stroketext_intro">Gateway</span>
+                    <span className="stroketext_intro">Aware</span>
                     <span>the only discord bot you will ever need.</span>
                     <div className="linkbuttons">
-                <button type="button" className="btn btn-outline-secondary">Invite Me</button>
-                <button type="button" className="btn btn-outline-secondary">Support Server</button>
+                        <button type="button" className="btn btn-outline-secondary" onClick={(e) => {e.preventDefault(); window.location.href = window.location.href+'invite'}}>Invite Me</button>
+                        <button type="button" className="btn btn-outline-secondary" onClick={(e) => {e.preventDefault(); window.location.href = window.location.href+"support"}}>Support Server</button>
+                    </div>
                 </div>
-                </div>
-               
+
             </div>
         </>
 
